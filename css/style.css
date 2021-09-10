@@ -284,16 +284,17 @@ img:hover{
     }
 }
 
+
 @media screen and (max-width: 425px){
     #menu{
-        font-size: 19px;
+        font-size: 1rem;
     }
     
     .intro__nome{
         color: white;
         letter-spacing: .1rem;
         font-family: "Urbanist";
-        font-size: 40px;
+        font-size: 2rem;
         margin-top: 266px;
         font-weight: bold;
     }
@@ -312,12 +313,14 @@ img:hover{
 
 }
 
+    /*iphone*/
+
 @media screen and (max-width: 375px){
     .intro__nome{
         color: white;
         letter-spacing: .1rem;
         font-family: "Urbanist";
-        font-size: 40px;
+        font-size: 2rem;
         margin-top: 266px;
         font-weight: bold;
     }
@@ -325,12 +328,79 @@ img:hover{
     .intro__descricao{
         color:#FF6347;
         font-family: "Urbanist";
-        font-size: 22px;
+        font-size: 1rem;
         text-align: center;
+    }
+
+    .sobre__titulo{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .sobre__comeco{
+        font-size: 1.5rem;
+    }
+
+    .sobre__txt {
+        font-size: 1.4rem;
     }
 
     #habilidades{
         background-color: black;
         min-height: 55vh;
+    }
+
+    .habilidade__titulo{
+        font-size: 2.5rem;
+    }
+
+    #habilidades__idioma{
+        font-size: 1.7rem;
+
+    }
+
+    .educacao__titulo{
+        font-size: 2.5rem;
+
+    }
+
+    .educacao__grupo{
+        font-size: 2rem;
+    }
+
+    .educacao__ano{
+        font-size: 1.7rem;
+    }
+
+    .educacao__curso{
+        font-size: 1.4rem;
+    }
+
+    .contato__txt{
+        font-size: 2.5rem;
+        font-weight: normal;
+
+    }
+
+    .contato__email {
+        font-size: 1.4rem;
+        padding: 1rem 0;
+        color: white;
+    }
+    .contato__email2{
+        font-size: 1.4rem;
+        padding: 1rem 0;
+        font-weight: normal;
+    }
+
+    .redes__sociais {
+        background-color: black;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .final {
+        padding: 1rem 0;
+        text-align: center;
     }
 }

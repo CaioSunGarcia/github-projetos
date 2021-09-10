@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    min-height: 100vh;
+    min-height: 56vh;
 }
 
 .intro__nome{
@@ -29,7 +29,7 @@
     letter-spacing: .1rem;
     font-family: "Urbanist";
     font-size: 60px;
-    margin-top: 266px;
+    padding-top: 7rem ;
     font-weight: bold;
 }
 
@@ -38,7 +38,7 @@
     color:#FF6347;
     font-family: "Urbanist";
     font-size: 22px;
-    margin-top: 10px;
+    padding: 10px 0;
 }
 
 #sobre{
@@ -56,7 +56,7 @@
     font-size: 60px;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 3rem;
     font-weight: bold;
 }
 
@@ -209,7 +209,6 @@ img:hover{
 
 .contato__email2{
     text-align: center;
-    font-weight: bold;
     padding-top: 30px;
 }
 
@@ -282,26 +281,42 @@ img:hover{
     }
 }
 
+/*mobile plus*/
 
 @media screen and (max-width: 425px){
     #menu{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     .intro__nome{
         color: white;
         letter-spacing: .1rem;
         font-family: "Urbanist";
-        font-size: 2rem;
-        margin-top: 266px;
+        font-size: 2.7rem;
         font-weight: bold;
     }
 
     .intro__descricao{
         color:#FF6347;
         font-family: "Urbanist";
-        font-size: 22px;
+        font-size: 1.7rem;
         text-align: center;
+    }
+
+    .sobre__titulo{
+        font-size: 3.5rem;
+    }
+
+    .sobre__comeco {
+        font-size: 1.8rem;
+    }
+
+    .sobre__txt {
+        font-size: 1.8rem;
+    }
+
+    .habilidade__titulo{
+        font-size: 3rem;
     }
 
     #habilidades{
@@ -309,11 +324,59 @@ img:hover{
         min-height: 60vh;
     }
 
+    #habilidades__idioma {
+        font-size: 2rem;
+    }
+
+    .educacao__titulo {
+        font-size: 3.5rem;
+    }   
+
+    .educacao__grupo {
+        font-size: 1.8rem;
+        padding: 20px 20px;
+    }
+
+    .educacao__ano {
+        font-size: 1.7rem;
+    }
+
+    .educacao__curso {
+        font-size: 1.5rem;
+    }
+
+    .educacao__ensino{
+        font-size: 1.5rem;
+    }
+
+    .contato__txt{
+        font-size: 3rem;
+    }
+
+    .contato__email {
+        color: white;
+        font-size: 1.6rem;
+        padding: 30px 18px;
+    }
+
+    .contato__email2 {
+        font-size: 2.3rem;
+    }
+
+    .redes__sociais {
+        padding: 30px 0;
+        align-items: center;
+    }
+
 }
 
     /*iphone*/
 
 @media screen and (max-width: 375px){
+    #menu{
+        font-size: 1rem;
+    }
+    
     .intro__nome{
         color: white;
         letter-spacing: .1rem;

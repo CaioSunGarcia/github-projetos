@@ -285,7 +285,7 @@ img:hover{
 
 @media screen and (max-width: 425px){
     #menu{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .intro__nome{

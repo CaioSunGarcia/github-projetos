@@ -374,16 +374,13 @@ img:hover{
 
 @media screen and (max-width: 375px){
     #menu{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
     .intro__nome{
-        color: white;
-        letter-spacing: .1rem;
-        font-family: "Urbanist";
         font-size: 2rem;
-        margin-top: 266px;
         font-weight: bold;
+        padding-top: 13rem;
     }
 
     .intro__descricao{
@@ -426,11 +423,17 @@ img:hover{
     }
 
     .educacao__grupo{
+        padding: 20px 20px;
         font-size: 2rem;
     }
 
     .educacao__ano{
+        padding: 20px 20px;
         font-size: 1.7rem;
+    }
+    .educacao__ensino{
+        padding: 20px 20px;
+        font-size: 1.4rem;
     }
 
     .educacao__curso{
@@ -444,7 +447,7 @@ img:hover{
 
     .contato__email {
         font-size: 1.4rem;
-        padding: 1rem 0;
+        padding: 20px 20px;
         color: white;
     }
     .contato__email2{

@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&family=ZCOOL+KuaiLe&display=swap');
+
+#menu{
+    background-color:black ;
+    font-weight: bold;
+    padding:15px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Urbanist";
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+#intro{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    min-height: 100vh;
+}
+
+.intro__nome{
+    color: white;
+    letter-spacing: .1rem;
+    font-family: "Urbanist";
+    font-size: 60px;
+    margin-top: 266px;
+    font-weight: bold;
+}
+
+.intro__descricao{
+    padding-top: 10px;
+    color:#FF6347;
+    font-family: "Urbanist";
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#sobre{
+    background-color: #121213;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.sobre__titulo{
+    color: white;
+    letter-spacing: .1rem;
+    font-family: "Urbanist";
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.sobre__contexto{
+    width: 80%;
+}
+
+.sobre__comeco{
+    padding-top: 10px;
+    color:#FF6347;
+    font-family: "Urbanist";
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.sobre__txt{
+    padding-top: 10px;
+    color:#fff;
+    font-family: "Urbanist";
+    font-size: 22px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+#habilidades{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.habilidade__titulo{
+    color: white;
+    letter-spacing: .1rem;
+    font-family: "Urbanist";
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.habilidade{
+    color: white;
+    font-family: "Urbanist";
+}
+
+.habilidade__all{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 30px;
+
+}
+
+img{
+    width:10%;
+    filter: invert();
+    
+}
+
+img:hover{
+    width: 11%;
+    transition: 0.25s all;
+    transition-timing-function:ease;
+    transition-delay: 0s;
+    margin-bottom: 10px;
+}
+
+#habilidades__idioma{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#educacao{
+    background-color: #121213;
+    min-height: 100vh;
+}
+
+.educacao__titulo{
+    color: white;
+    letter-spacing: .1rem;
+    font-family: "Urbanist";
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+.educacao__grupo{
+    letter-spacing: .1em;
+    padding: 20px 0;
+    color: #FF6347;
+    text-align: center;
+    font-family: "Urbanist";
+    font-size: 30px;
+}
+
+.educacao__ano{
+    letter-spacing: .1em;
+    font-weight: bold;
+    font-family: "Urbanist";
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.educacao__curso{
+    letter-spacing: .1em;
+    font-family: "Urbanist";
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.educacao__ensino{
+    letter-spacing: .1em;
+    font-family: "Urbanist";
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 20px
+}
+
+#contato{
+    background-color: black;
+    min-height: 70vh;
+}
+
+.contato__descricao{
+    padding-top: 30px;
+    color:#FF6347;
+    font-family: "Urbanist";
+    font-size: 30px;
+}
+
+.contato__txt{
+    text-align: center;
+    padding:30px 0;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.contato__email{
+    text-align: center;
+    padding:30px 0;
+}
+
+.contato__email2{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.redes__sociais{
+    background-color: black;
+    min-height: 20vh;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.img__contato{
+    width: 70px;
+}
+
+.final{
+    background-color: black;
+    color: white;
+    font-family: "Urbanist";
+    letter-spacing: .1em;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 768px){
+    #menu{
+        font-size: 25px;
+    }
+    
+    #intro {
+        min-height: 62vh;
+    }
+
+    .intro__nome{
+        font-size: 80px;
+    }
+
+    .intro__descricao{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .sobre__titulo{
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .sobre__comeco{
+        font-size: 38px;
+    }
+
+    .sobre__txt{
+        font-size: 40px;
+    }
+
+    #habilidades{
+        background-color: black;
+        min-height: 47vh;
+    }
+
+    #educacao{
+        min-height: 45vh;
+    }
+
+    #contato{
+        min-height:42vh;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #menu{
+        font-size: 19px;
+    }
+    
+    .intro__nome{
+        color: white;
+        letter-spacing: .1rem;
+        font-family: "Urbanist";
+        font-size: 40px;
+        margin-top: 266px;
+        font-weight: bold;
+    }
+
+    .intro__descricao{
+        color:#FF6347;
+        font-family: "Urbanist";
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #habilidades{
+        background-color: black;
+        min-height: 60vh;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .intro__nome{
+        color: white;
+        letter-spacing: .1rem;
+        font-family: "Urbanist";
+        font-size: 40px;
+        margin-top: 266px;
+        font-weight: bold;
+    }
+
+    .intro__descricao{
+        color:#FF6347;
+        font-family: "Urbanist";
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #habilidades{
+        background-color: black;
+        min-height: 55vh;
+    }
+}

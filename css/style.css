@@ -9,10 +9,14 @@
     font-family: "Urbanist";
 }
 
-#menu a{
+.menu a{
     color: white;
     text-decoration: none;
-    text-transform: uppercase;   
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: #FF6347;
+    transition: 0.45s all;
 }
 
 #intro{
@@ -216,10 +220,11 @@ img:hover{
     background-color: black;
     min-height: 20vh;
     display: flex;
-    justify-content:space-around;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: inherit;
+    align-items: flex-start;
     padding-bottom: 30px;
-}
+    }
 
 .img__contato{
     width: 70px;

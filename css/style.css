@@ -1,52 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background: linear-gradient(#023047,#219ebc, #8ecae6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 #menu{
-    background-color:black ;
-    font-weight: bold;
-    padding:15px;
+    background-color:#14213d;
+    font-weight: 500;
+    font-size: 20px;
+    padding:15px 0;
     display: flex;
     justify-content: space-around;
-    font-family: "Urbanist";
+    font-family: 'Poppins';
+
 }
 
 .menu a{
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
+    font-weight: 300;
 }
 .menu a:hover{
-    color: #FF6347;
-    transition: 0.45s all;
+    color: #023047;
+    background-color: #fb8500;
+    padding: 0 5px;
+    border-radius: 3px;
+    transition: 0.3s;
+
+   
+}
+
+.menu a.active{
+    background-color: #fb8500;
+    border-radius: 3px;
+    padding: 0 5px;
 }
 
 #intro{
-    background-color: black;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     min-height: 56vh;
 }
 
 .intro__nome{
     color: white;
     letter-spacing: .1rem;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     font-size: 60px;
     padding-top: 7rem ;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .intro__descricao{
     padding-top: 10px;
-    color:#FF6347;
-    font-family: "Urbanist";
+    color: #ffb703;
+    font-family: "Poppins";
     font-size: 22px;
     padding: 10px 0;
 }
 
 #sobre{
-    background-color: #121213;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,12 +80,12 @@
 .sobre__titulo{
     color: white;
     letter-spacing: .1rem;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     font-size: 60px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     margin-top: 3rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .sobre__contexto{
@@ -70,8 +94,8 @@
 
 .sobre__comeco{
     padding-top: 10px;
-    color:#FF6347;
-    font-family: "Urbanist";
+    color: #ffb703;
+    font-family: "Poppins";
     font-size: 22px;
     margin-top: 10px;
 }
@@ -79,90 +103,92 @@
 .sobre__txt{
     padding-top: 10px;
     color:#fff;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     font-size: 22px;
     margin-top: 10px;
     padding-bottom: 30px;
 }
 
 #habilidades{
-    background-color: black;
     min-height: 100vh;
 }
 
 .habilidade__titulo{
     color: white;
     letter-spacing: .1rem;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     font-size: 60px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     padding-top: 30px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .habilidade{
+    height: 100vh;
     color: white;
-    font-family: "Urbanist";
+    font-family: "Poppins";
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
 }
 
 .habilidade__all{
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
+    flex-wrap: wrap;
     align-items: center;
     margin: 30px 30px;
 
 }
 
-img{
+.img__habilidades{
     width:10%;
-    filter: invert();
-    
 }
 
-img:hover{
-    width: 11%;
-    transition: 0.25s all;
-    transition-timing-function:ease;
-    transition-delay: 0s;
-    margin-bottom: 10px;
+.img__habilidades:hover{
+    width: 10%;
+    transform: translateY(-10px);
+    transition: 0.7s;
 }
 
 #habilidades__idioma{
     font-size: 30px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-bottom: 30px;
 }
 
 #educacao{
-    background-color: #121213;
     min-height: 100vh;
 }
 
 .educacao__titulo{
     color: white;
     letter-spacing: .1rem;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     font-size: 60px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     padding: 30px 0;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .educacao__grupo{
     letter-spacing: .1em;
     padding: 20px 0;
-    color: #FF6347;
+    color: #ffb703;
     text-align: center;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     font-size: 30px;
 }
 
 .educacao__ano{
     letter-spacing: .1em;
-    font-weight: bold;
-    font-family: "Urbanist";
+    font-weight: 200;
+    font-family: "Poppins";
     text-align: center;
     padding-bottom: 30px;
     color: white;
@@ -171,7 +197,7 @@ img:hover{
 
 .educacao__curso{
     letter-spacing: .1em;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     text-align: center;
     padding-bottom: 30px;
     color: white;
@@ -181,7 +207,7 @@ img:hover{
 
 .educacao__ensino{
     letter-spacing: .1em;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     text-align: center;
     padding-bottom: 30px;
     color: white;
@@ -189,18 +215,18 @@ img:hover{
 }
 
 #contato{
-    background-color: black;
     min-height: 70vh;
 }
 
 .contato__descricao{
     padding-top: 30px;
-    color:#FF6347;
-    font-family: "Urbanist";
+    color: #ffb703;
+    font-family: "Poppins";
     font-size: 30px;
 }
 
 .contato__txt{
+    color: #ffb703;
     text-align: center;
     padding:30px 0;
     font-size: 60px;
@@ -209,15 +235,16 @@ img:hover{
 .contato__email{
     text-align: center;
     padding:30px 0;
+    color: white;
 }
 
 .contato__email2{
     text-align: center;
-    padding-top: 30px;
+    padding: 30px 0;
+    color: #ffb703;
 }
 
 .redes__sociais{
-    background-color: black;
     min-height: 20vh;
     display: flex;
     justify-content: space-around;
@@ -227,16 +254,17 @@ img:hover{
     }
 
 .img__contato{
-    width: 70px;
+    width: 4rem;
+    
 }
 
 .final{
-    background-color: black;
     color: white;
-    font-family: "Urbanist";
+    font-family: "Poppins";
     letter-spacing: .1em;
-    padding-bottom: 30px;
-    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: end;
 }
 
 /*tablet*/
@@ -296,14 +324,13 @@ img:hover{
     .intro__nome{
         color: white;
         letter-spacing: .1rem;
-        font-family: "Urbanist";
+        font-family: "Poppins";
         font-size: 2.7rem;
-        font-weight: bold;
     }
 
     .intro__descricao{
         color:#FF6347;
-        font-family: "Urbanist";
+        font-family: "Poppins";
         font-size: 1.7rem;
         text-align: center;
     }
@@ -384,13 +411,12 @@ img:hover{
     
     .intro__nome{
         font-size: 2rem;
-        font-weight: bold;
         padding-top: 13rem;
     }
 
     .intro__descricao{
         color:#FF6347;
-        font-family: "Urbanist";
+        font-family: "Poppins";
         font-size: 1rem;
         text-align: center;
     }
@@ -458,7 +484,6 @@ img:hover{
     .contato__email2{
         font-size: 1.4rem;
         padding: 1rem 0;
-        font-weight: normal;
     }
 
     .redes__sociais {

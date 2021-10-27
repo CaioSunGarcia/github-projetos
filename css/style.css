@@ -301,7 +301,6 @@ body{
     }
 
     #habilidades{
-        background-color: black;
         min-height: 47vh;
     }
 
@@ -352,7 +351,6 @@ body{
     }
 
     #habilidades{
-        background-color: black;
         min-height: 60vh;
     }
 
@@ -435,7 +433,6 @@ body{
     }
 
     #habilidades{
-        background-color: black;
         min-height: 55vh;
     }
 
@@ -487,7 +484,6 @@ body{
     }
 
     .redes__sociais {
-        background-color: black;
         align-items: center;
         padding: 2rem 0;
     }

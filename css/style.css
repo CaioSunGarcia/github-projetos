@@ -118,6 +118,7 @@ body{
     min-height: 100vh;
 }
 
+
 .habilidade__titulo{
     color: white;
     letter-spacing: .1rem;
@@ -139,7 +140,6 @@ body{
 }
 
 .habilidade__all{
-    width: 100%;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
@@ -150,12 +150,12 @@ body{
 
 .img__habilidades{
     width:10%;
+    color: aliceblue;
 }
 
 .img__habilidades:hover{
-    width: 10%;
     transform: translateY(-10px);
-    transition: 0.7s;
+    transition: 0.3s;
 }
 
 #habilidades__idioma{

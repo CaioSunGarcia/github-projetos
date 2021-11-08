@@ -405,91 +405,125 @@ body{
 @media screen and (max-width: 375px){
     #menu{
         font-size: 0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #intro{
+        min-height: 0;
     }
     
     .intro__nome{
         font-size: 2rem;
-        padding-top: 13rem;
+        text-align: center;
     }
 
     .intro__descricao{
         color:#FF6347;
         font-family: "Poppins";
-        font-size: 1rem;
+        font-size: 1.6rem;
         text-align: center;
     }
 
+    #sobre{
+        min-height: 0;
+    }
+
     .sobre__titulo{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
     .sobre__comeco{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .sobre__txt {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     #habilidades{
-        min-height: 55vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img__habilidades{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .img__habilidades:hover{
+        width: 4rem;
+        height: 4rem;
+        transform: translateY(-20px);
+        transition: 0.4s;
+
+    }
+    .habilidade__all{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .habilidade__titulo{
-        font-size: 2.5rem;
+        font-size: 1.3rem;
     }
 
     #habilidades__idioma{
-        font-size: 1.7rem;
+        font-size: 1rem;
 
     }
 
     .educacao__titulo{
-        font-size: 2.5rem;
+        font-size: 1.3rem;
 
     }
 
     .educacao__grupo{
-        padding: 20px 20px;
-        font-size: 2rem;
+        font-size: 1.1rem;
     }
 
-    .educacao__ano{
-        padding: 20px 20px;
-        font-size: 1.7rem;
-    }
-    .educacao__ensino{
-        padding: 20px 20px;
-        font-size: 1.4rem;
+    .educacao__ano, .educacao__curso, .educacao__ensino{
+        font-size: 0.9rem;
     }
 
-    .educacao__curso{
-        font-size: 1.4rem;
-    }
-
-    .contato__txt{
-        font-size: 2.5rem;
-
+    #contato{
+        text-align: center;
+        min-height: 0;
     }
 
     .contato__email {
-        font-size: 1.4rem;
-        padding: 20px 20px;
-        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+        cursor: pointer;
+        color: #ffb703;
+        min-height: 0;
     }
-    .contato__email2{
-        font-size: 1.4rem;
-        padding: 1rem 0;
+
+    .contato__email:hover{
+        cursor: pointer;
+        color: whitesmoke;
+        transition: 0.5s;
     }
 
     .redes__sociais {
-        align-items: center;
-        padding: 2rem 0;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .redes__sociais:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+        transition: 0.5s;
     }
 
     .final {
         padding: 1rem 0;
         text-align: center;
+        font-weight: 100;
     }
 }

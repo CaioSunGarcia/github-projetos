@@ -9,16 +9,13 @@
 }
 
 body{
-    background: linear-gradient(#023047,#219ebc, #8ecae6);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #000;
 }
 
 
 
 #menu{
-    background-color:#14213d;
+    background-color: #363636;
     font-weight: 500;
     font-size: 20px;
     padding:15px 0;
@@ -109,7 +106,7 @@ body{
     padding-top: 10px;
     color:#fff;
     font-family: "Poppins";
-    font-size: 22px;
+    font-size: 2rem;
     margin-top: 10px;
     padding-bottom: 30px;
 }
@@ -145,6 +142,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     margin: 30px 30px;
+    cursor: pointer;
 
 }
 
@@ -154,12 +152,12 @@ body{
 }
 
 .img__habilidades:hover{
-    transform: translateY(-10px);
+    transform: translateY(-30px);
     transition: 0.3s;
 }
 
 #habilidades__idioma{
-    font-size: 30px;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -248,12 +246,25 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: inherit;
-    align-items: flex-start;
-    padding-bottom: 30px;
+    align-items: center;
+    background-color: #363636;
     }
 
 .img__contato{
-    width: 4rem;
+    width:3rem;
+    
+}
+
+#topo{
+    text-decoration: none;
+    color: #ffb703;
+    padding: 25px;
+    position: fixed;
+    right: 10px;
+    bottom: 170px;
+    background-color: #363636;
+    border-radius: 50%;
+    cursor: pointer;
     
 }
 
@@ -264,6 +275,7 @@ body{
     padding-right: 10px;
     padding-bottom: 5px;
     text-align: end;
+    background-color: #363636;
 }
 
 /*tablet*/
@@ -296,7 +308,7 @@ body{
     }
 
     .sobre__txt{
-        font-size: 40px;
+        font-size: 2rem;
     }
 
     #habilidades{
@@ -354,7 +366,7 @@ body{
     }
 
     #habilidades__idioma {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .educacao__titulo {
@@ -401,7 +413,7 @@ body{
 
     /*iphone*/
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 374px){
     #menu{
         font-size: 0.8rem;
         display: flex;
@@ -471,6 +483,7 @@ body{
     }
 
     #habilidades__idioma{
+        text-align: center;
         font-size: 1rem;
 
     }
